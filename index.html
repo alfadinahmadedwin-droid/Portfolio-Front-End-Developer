@@ -1,0 +1,253 @@
+<!doctype html>
+< lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Front End Developer</title>
+
+    <!-- My Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Edwin<span>Dev</span></a>
+
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" i="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-item-center">
+          <div class="col-lg-6">
+            <h1>Halo, Saya <span>Ahmad Edwin Alfadin</span></h1>
+
+            <h3 class="mt-3">Saya seorang <span class="typing"></span></h3>
+
+            <p>
+              Front End Developer yang fokus membuat website modern, responsif,
+              interaktif, dan user friendly menggunakan HTML, CSS, JavaScript,
+              Bootstrap, dan React.
+            </p>
+
+            <div class="mt-4">
+              <a href="#projects" class="btn btn-outline-info">Lihat Project</a>
+
+              <a href="#contact" class="btn btn-outline-info">Hubungi Saya</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-center mt-5 mt-lg-0">
+            <img
+              src="../IMG/Profil 2.png"
+              alt="Profile"
+              class="profile-img img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Tentang Saya</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-custom">
+              <h3 class="mb3">Front End Developer</h3>
+
+              <p>
+                Saya memiliki passion dalam dunia web development, khususnya
+                membuat tampilan website yang modern, menarik, cepat, dan
+                responsive di semua device.
+              </p>
+
+              <p>
+                saya terus belajar teknologi terbaru untuk meningkatkan skill
+                dan kualitas project yang saya buat.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="card-custom">
+              <h3 class="mb-3">Pengalaman</h3>
+
+              <ul>
+                <li>Membuat landing page modern</li>
+                <li>Mendesain website responsive</li>
+                <li>Membangun UI interaktif</li>
+                <li>Optimasi performa website</li>
+                <li>Integrasi API frontend</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="text-center">
+          <div class="skill-box">HTML</div>
+          <div class="skill-box">CSS3</div>
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">Bootstrap</div>
+          <div class="skill-box">Tailwind CSS</div>
+          <div class="skill-box">React JS</div>
+          <div class="skill-box">Git & GitHub</div>
+          <div class="skill-box">Responsive Design</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card-custom">
+              <img src="../IMG/Website Portfolio.jpg" class="project-img mb-3" algitt="Website Portfolio">
+
+              <h4>Website Portfolio</h4>
+
+              <p>
+                Website portfolio modern dengan animasi dan desain responsive.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-custom">
+              <img src="../IMG/Landing Page.jpg" class="project-img mb-3" alt="Landing Page">
+
+              <h4>Landing Page</h4>
+
+              <p>
+                Landing page profesional untuk bisnis dan personal branding.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-custom">
+              <img src="../IMG/Dashboard UI.jpg" class="project-img mb-3" alt="Dashboard UI">
+
+              <h4>Dashboard UI</h4>
+
+              <p>
+                Dashboard admin modern menggunakan Bootstrap dan chart
+                interaktif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="card-custom">
+              <p>
+                <i class="bi bi-envelope-fill contact-icon"></i
+                >alfadinahmadedwin@gmail.com
+              </p>
+
+              <p><i class="bi bi-instagram contact-icon"></i>@alfadin.code</p>
+
+              <p>
+                <i class="bi bi-github contact-icon"></i> github.com/alfadinahmadedwin-droid
+              </p>
+
+              <p>
+                <i class="bi bi-linkedin contact-icon"></i
+                >linkedin.com/in/ahmad-edwin-alfadin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 Ahmad Edwin (Front End Developer)</p>
+    </footer>
+
+    <!-- My JavaScript -->
+    <script src="JS/script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
